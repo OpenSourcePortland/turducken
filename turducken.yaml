@@ -1,0 +1,26 @@
+--- !ruby/object:Question
+question: does it swim
+yay: !ruby/object:Question
+  question: is it scary
+  yay: !ruby/object:Animal
+    name: shark
+  nay: !ruby/object:Question
+    question: does it bark
+    yay: !ruby/object:Animal
+      name: seal
+    nay: !ruby/object:Question
+      question: Does it bark?
+      yay: !ruby/object:Animal
+        name: seal
+      nay: !ruby/object:Animal
+        name: fish
+nay: !ruby/object:Question
+  question: does it have humps
+  yay: !ruby/object:Question
+    question: does it live in the desert
+    yay: !ruby/object:Animal
+      name: a camel
+    nay: !ruby/object:Animal
+      name: alpaca
+  nay: !ruby/object:Animal
+    name: elephant
